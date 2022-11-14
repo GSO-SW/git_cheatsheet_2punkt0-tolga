@@ -19,12 +19,13 @@ Befehle(lokal)
 
 ## TODO2
 - Fachbegriffe OOP erklären (mit Beispielen)
-  - abstract (Klassen)
-  - abstract (Methoden)
-  - virtual
-  - override
-  - Polymorphie
-- Wie überschreibt man die Methode `virtual string ToString()`?
+-abstract (Klassen):Keine Objekte erzeugbar 
+-abstract (Methoden):Bei abstrack müssen die erbenden klassen Methoden überschreiben 
+-virtual :Methoden können überschriben werden 
+-override :Eine override Methode stellt eine neue Implementierung der Methode bereit, die von einer Basisklasse geerbt wurde
+-Polymorphie :Polymorphie bezeichnet ein Konzept der Objektorientierung, das besagt, dass Objekte bei gleichen Methodenaufrufen unterschiedlich reagieren können
 
-## Test
-ABCDEFGHI
+--Wie überschreibt man die Methode `virtual string ToString()`?
+
+-bei virtual können die Methoden überschreiben aber müssen wir nicht
+-public override string ToString() {}
